@@ -1,0 +1,131 @@
+.super-container{
+    width: 100%;
+    height: auto;
+}
+*{
+    font-family: 'Roboto Mono', monospace;
+}
+a{
+    text-decoration: none;
+    color: #f09f4f;
+}
+a:hover{
+    text-decoration: none;
+    color: #f09f4f;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+}
+.background{
+    position: absolute;
+    z-index: -1000;
+    top: 0px;
+}
+.blog-in{
+    padding-top: 30px;
+}
+.blog-in input{
+    margin-top: 10px;
+    float: left;
+    width: 180px;
+    height: 30px;
+    
+    border-radius: 10px 0px 0px 10px;
+}
+.blog-in button{
+    border-radius: 0px 10px 10px 0px;
+    height: 30px;
+    margin-top: 10px;
+}
+.blog-in button i{
+    font-size: 20px;
+}
+.blog-in a{
+    color: #f09f4f;
+}
+
+ul,li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.menuli li{
+    color: #f09f4f;
+    border-bottom: #f09f4f dotted 1px;
+    font-size: 20px;
+    font-weight: 600; 
+    width: 180px;
+    font-family: 'Roboto Slab', serif!important;
+}
+
+.follow{
+    color: #f09f4f;
+    font-size: 23px;
+    padding-bottom: 10px;
+}
+
+.facebook{
+    margin-top: 10px;
+}
+.main h1{
+    color: #f09f4f;
+}
+.main p{
+    color: #f08a26;
+}
+.content-main{
+    background-color: #402211;
+}
+.content-main i{
+    color: #f09f4f;
+}
+.content-main img{
+    padding: 5px;
+}
+.bang{   
+    border: #f09f4f dotted 1px;
+    margin-top: 20px;
+}
+.bang tr{   
+    border: #f09f4f dotted 1px;
+    color: #f09f4f;
+}
+.form{
+    padding-left: 10px;
+}
+.note a{
+text-decoration: underline;
+}
+.group__services-text {
+    text-align: center;
+    background: rgba(0, 0, 0, 0) url(http://thietkewebnhanh247.com/wp-content/themes/thietkewebsite/img/bg_h2.png) no-repeat scroll center bottom;
+    padding-bottom: 2.5rem;
+}
+.mau{
+    width: 150%;
+}
+.contact i{
+color: #fff;
+}
+.contact {
+    color: #fff;
+    margin-top: 30px;
+}
+
+@media screen and (min-width: 768px){
+    .col-9{
+        max-width: 65%;
+    }
+    .main{
+       margin-left: 70px; 
+    }
+}
+
+@media screen and (max-width: 426px){
+    .blog-in{
+        padding-top: 100px!important;
+        margin-bottom: -200px!important;
+    }
+}
